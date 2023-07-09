@@ -13,6 +13,8 @@ suitable for the IoT environment.
 Suppose there is a video stream server. It wants to authenticate the
 movie it sends. So the server uses the following mechanism:
 
+![image](https://github.com/HubertTW/acis-lab/assets/49508716/8e8faab6-d333-4f4d-9424-fd74d952d770)
+
 In this project, we use SHA256 as the one way function. Each video
 block is 1KB. Of course, the last block may be shorter than 1KB. Please
 develop a program to derive Hn. I will give you one video for verification.
